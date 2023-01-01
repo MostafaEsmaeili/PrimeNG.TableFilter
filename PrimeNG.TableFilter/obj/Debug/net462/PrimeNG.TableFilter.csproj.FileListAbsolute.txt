@@ -1,0 +1,12 @@
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\bin\Debug\net462\PrimeNG.TableFilter.dll
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\bin\Debug\net462\PrimeNG.TableFilter.pdb
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\bin\Debug\net462\Newtonsoft.Json.dll
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\bin\Debug\net462\System.Linq.Dynamic.Core.dll
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.csproj.AssemblyReference.cache
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.AssemblyInfoInputs.cache
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.AssemblyInfo.cs
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.csproj.CoreCompileInputs.cache
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.csproj.CopyComplete
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.dll
+D:\Github\PrimeNG.TableFilter\PrimeNG.TableFilter\obj\Debug\net462\PrimeNG.TableFilter.pdb

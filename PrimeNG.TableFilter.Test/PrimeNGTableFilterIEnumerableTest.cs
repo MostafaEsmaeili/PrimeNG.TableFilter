@@ -13,7 +13,7 @@ namespace PrimeNG.TableFilter.Test
         {
             return new List<TestData>
             {
-                new TestData { DateTime1  = new DateTime(2019, 1, 10), Num1 = 1, String1 = "Test1", DateTime2 = new DateTime(2019, 2, 10) },
+                new TestData { DateTime1 = new DateTime(2019, 1, 10), Num1 = 1, String1 = "Test1", DateTime2 = new DateTime(2019, 2, 10) },
                 new TestData { DateTime1 = new DateTime(2019, 1, 11), Num1 = 2, String1 = "Test2" },
                 new TestData { DateTime1 = new DateTime(2019, 1, 12), Num1 = 3, String1 = "Test3" },
                 new TestData { DateTime1 = new DateTime(2019, 1, 13), Num1 = 4, String1 = "Test4" },
@@ -25,7 +25,6 @@ namespace PrimeNG.TableFilter.Test
                 new TestData { DateTime1 = new DateTime(2019, 1, 18), Num1 = 9, String1 = "Best1" },
                 new TestData { DateTime1 = new DateTime(2019, 1, 18), Num1 = 9, String1 = "Best2" },
                 new TestData { DateTime1 = new DateTime(2019, 1, 18), Num1 = 9, String1 = "Best3" },
-                // nullable TestData
                 new TestData { DateTime1 = new DateTime(2021, 11, 1), Num1 = 90, String1 = "T1", NullableBool=false },
                 new TestData { DateTime1 = new DateTime(2021, 11, 1), Num1 = 90, String1 = "T1", NullableBool=true },
                 new TestData { DateTime1 = new DateTime(2021, 11, 1), Num1 = 90, String1 = "T1", NullableBool=true },

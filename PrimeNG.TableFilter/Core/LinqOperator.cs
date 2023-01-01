@@ -91,7 +91,7 @@ namespace PrimeNG.TableFilter.Core
                     case string _:
                         {
                             var propertyAccess = Expression.MakeMemberAccess(_context.ParameterExpression,
-                                property ?? throw new InvalidOperationException());
+                                property);
 
                             var methodInfo = propertyType.GetMethod(extensionMethod, new[] { propertyType });
                             if (isNegation)
