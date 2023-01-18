@@ -1,4 +1,6 @@
 # PrimeNG TableFilter to IQueryable Extension
+### I have no plans to submit this fork to Kusumoto/PrimeNG. TableFilter. I just try to modify it for personal purposes and add some features, for example, async support for MongoDB, Postgres, and SQL Server, support for value objects, etc.
+
 
 This is a C# extension for the [PrimeNG Table](https://www.primefaces.org/primeng/#/table) that allows for easy conversion of the Table's filter state to an `IQueryable` for use in filtering data in a backend service.
 
