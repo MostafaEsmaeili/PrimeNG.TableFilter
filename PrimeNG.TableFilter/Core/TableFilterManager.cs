@@ -109,9 +109,9 @@ namespace PrimeNG.TableFilter.Core
             if (value.Value == null)
                 return;
 
-            switch (value.MatchMode)
+            switch (value.MatchMode.ToLower())
             {
-                case ConstantTypeMatchModeStartsWith:
+                case ConstantTypeMatchModeStartsWith  :
                     _linqOperator.AddFilterProperty(key.FirstCharToUpper(), value.Value,
                         LinqOperatorConstants.ConstantStartsWith
                         , operatorAction);
