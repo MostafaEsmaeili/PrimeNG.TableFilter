@@ -43,7 +43,7 @@ namespace PrimeNG.TableFilter.Utils
                 return arrayCast.ToObject<List<decimal>>();
             if (property?.PropertyType == typeof(decimal?))
                 return arrayCast.ToObject<List<decimal?>>();
-            if (property != null && property.PropertyType.IsEnum)
+            if (Nullable.GetUnderlyingType(property?.PropertyType).IsEnum)
                 return arrayCast.ToObject<List<int?>>();
             return arrayCast.ToObject<List<string>>();
         }

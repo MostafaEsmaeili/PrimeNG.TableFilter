@@ -220,8 +220,21 @@ namespace PrimeNG.TableFilter.Core
         /// <returns><code>True</code> if nullable, otherwise <code>False</code></returns>
         private static bool IsNumericType(Type propertyType)
         {
-            return (propertyType == typeof(short) || propertyType == typeof(short?) || propertyType == typeof(int) || propertyType == typeof(int?) || propertyType == typeof(long) || propertyType == typeof(long?)
-                  || propertyType == typeof(float) || propertyType == typeof(float?) || propertyType == typeof(double) || propertyType == typeof(double?) || propertyType == typeof(decimal) || propertyType == typeof(decimal?));
+            return propertyType == typeof(short)
+                   || propertyType == typeof(short?)
+                   || propertyType == typeof(int)
+                   || propertyType == typeof(int?)
+                   || propertyType == typeof(long)
+                   || propertyType == typeof(long?)
+                   || propertyType == typeof(float)
+                   || propertyType == typeof(float?)
+                   || propertyType == typeof(double)
+                   || propertyType == typeof(double?)
+                   || propertyType == typeof(decimal)
+                   || propertyType == typeof(decimal?)
+                   || propertyType.IsEnum
+                   || Nullable.GetUnderlyingType(propertyType)?.IsEnum == true
+                   ;
         }
         /// <summary>
         /// Checks if for provided <paramref name="propertyType"/>, <paramref name="extensionMethod"/> is valid
