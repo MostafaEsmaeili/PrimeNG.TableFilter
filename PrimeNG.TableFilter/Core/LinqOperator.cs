@@ -258,7 +258,9 @@ namespace PrimeNG.TableFilter.Core
 
             if (propertyType == typeof(bool) || propertyType == typeof(bool?))
             {
-                return LinqOperatorConstants.ConstantEquals == extensionMethod;
+                var validBooleanLinqMethods = new[] { LinqOperatorConstants.ConstantEquals, LinqOperatorConstants.ConstantContains };
+
+                return validBooleanLinqMethods.Contains(extensionMethod);
             }
 
             if (!IsNumericType(propertyType)) return false;
